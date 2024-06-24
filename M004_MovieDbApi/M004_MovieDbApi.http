@@ -1,6 +1,9 @@
 @M004_MovieDbApi_HostAddress = http://localhost:5026
 
-GET {{M004_MovieDbApi_HostAddress}}/weatherforecast/
+GET {{M004_MovieDbApi_HostAddress}}/api/movie/all/
+Accept: application/json
+
+GET {{M004_MovieDbApi_HostAddress}}/api/movie/find/6548
 Accept: application/json
 
 ###

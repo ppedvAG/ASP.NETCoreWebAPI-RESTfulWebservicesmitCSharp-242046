@@ -20,3 +20,18 @@ KursRepository zu Kurs ASP.NET Core Web API - RESTful Webservices mit C# der ppe
 - Movie Database Api
 - Controller mit CRUD Operationen
 - Model constraints
+
+## Modul 005 EF Core
+
+- Code First: VehicleFleet Datenbank
+- Datenklasse mit Attriuten versetzt
+- DbContext erzeugt
+- Connection string erstellt
+- Abhängigkeiten via DI registriert
+
+```
+dotnet tool install --global dotnet-ef
+dotnet ef migrations add myInitialScript --project myProject
+dotnet ef database update --project myProject
+```
+

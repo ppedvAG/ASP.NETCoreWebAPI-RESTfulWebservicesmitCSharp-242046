@@ -1,0 +1,6 @@
+@M005_EFCore_HostAddress = http://localhost:5145
+
+POST {{M005_EFCore_HostAddress}}/api/vehicles/generate?count=5
+Accept: application/json
+
+###

@@ -25,7 +25,7 @@ namespace BusinessLogic.Services
             var topSpeed = Random.Shared.Next(10, 25) * 10;
             var car = new Vehicle
             {
-                Id = id,
+                //Id = id,
                 Brand = brand,
                 ModelName = modelName,
                 Color = color,

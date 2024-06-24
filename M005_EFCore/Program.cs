@@ -1,10 +1,11 @@
 
-
+using BusinessLogic;
 using BusinessLogic.Contracts;
 using BusinessLogic.Services;
+using Microsoft.EntityFrameworkCore;
 using System.Text.Json.Serialization;
 
-namespace M004_MovieDbApi
+namespace M005_EFCore
 {
     public class Program
     {
@@ -12,19 +13,24 @@ namespace M004_MovieDbApi
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            AddServies(builder.Services);
-
             // Add services to the container.
 
             builder.Services.AddControllers().AddJsonOptions(options =>
             {
                 // Enums in Datenmodellen als Text statt Integers ausgeben indem wir diese Json Options verwenden
                 options.JsonSerializerOptions.Converters.Add(new JsonStringEnumConverter());
-            });
+            }); ;
 
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+
+            var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+            builder.Services.AddDbContext<WebApiDbContext>(option =>
+            {
+                option.UseSqlServer(connectionString);
+            });
+            builder.Services.AddTransient<IVehicleService, VehicleService>();
 
             var app = builder.Build();
 
@@ -33,7 +39,6 @@ namespace M004_MovieDbApi
             {
                 app.UseSwagger();
                 app.UseSwaggerUI();
-                app.UseDeveloperExceptionPage();
             }
 
             app.UseHttpsRedirection();
@@ -44,11 +49,6 @@ namespace M004_MovieDbApi
             app.MapControllers();
 
             app.Run();
-        }
-
-        private static void AddServies(IServiceCollection services)
-        {
-            services.AddTransient<IMovieService, MovieService>();
         }
     }
 }
