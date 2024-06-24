@@ -1,0 +1,6 @@
+@M003_VehicleFleetApi_HostAddress = http://localhost:5007
+
+GET {{M003_VehicleFleetApi_HostAddress}}/Vehicles/
+Accept: application/json
+
+###

@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M001_WeatherForecastApi", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M002_MinimalApi", "M002_MinimalApi\M002_MinimalApi.csproj", "{EFFC4093-BA8E-460C-8398-0539D1433AC0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M003_VehicleFleetApi", "M003_VehicleFleetApi\M003_VehicleFleetApi.csproj", "{B74BCE13-1768-443B-B473-A2C668CC2A58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLogic", "BusinessLogic\BusinessLogic.csproj", "{92D58486-1BEF-4A68-88E2-79352E16203A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{EFFC4093-BA8E-460C-8398-0539D1433AC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EFFC4093-BA8E-460C-8398-0539D1433AC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EFFC4093-BA8E-460C-8398-0539D1433AC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B74BCE13-1768-443B-B473-A2C668CC2A58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B74BCE13-1768-443B-B473-A2C668CC2A58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B74BCE13-1768-443B-B473-A2C668CC2A58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B74BCE13-1768-443B-B473-A2C668CC2A58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92D58486-1BEF-4A68-88E2-79352E16203A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92D58486-1BEF-4A68-88E2-79352E16203A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92D58486-1BEF-4A68-88E2-79352E16203A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92D58486-1BEF-4A68-88E2-79352E16203A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
