@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M003_VehicleFleetApi", "M00
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLogic", "BusinessLogic\BusinessLogic.csproj", "{92D58486-1BEF-4A68-88E2-79352E16203A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M004_MovieDbApi", "M004_MovieDbApi\M004_MovieDbApi.csproj", "{12E20E67-3135-457E-85F0-6422E0D79EE1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{92D58486-1BEF-4A68-88E2-79352E16203A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{92D58486-1BEF-4A68-88E2-79352E16203A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{92D58486-1BEF-4A68-88E2-79352E16203A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12E20E67-3135-457E-85F0-6422E0D79EE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12E20E67-3135-457E-85F0-6422E0D79EE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12E20E67-3135-457E-85F0-6422E0D79EE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12E20E67-3135-457E-85F0-6422E0D79EE1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

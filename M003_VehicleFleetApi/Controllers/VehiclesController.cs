@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace M003_VehicleFleetApi.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/v1/[controller]")]
     public class VehiclesController : ControllerBase
     {
         private readonly IVehicleService _vehicleService;
@@ -18,6 +18,7 @@ namespace M003_VehicleFleetApi.Controllers
         }
 
         [HttpGet]
+        [Route("vehicles")]
         public IEnumerable<Vehicle> GetVehicles()
         {
             var vehicles = Enumerable.Range(0, 5)
