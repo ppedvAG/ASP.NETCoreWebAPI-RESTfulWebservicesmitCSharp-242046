@@ -3,7 +3,6 @@ using BusinessLogic;
 using BusinessLogic.Contracts;
 using BusinessLogic.Services;
 using Microsoft.EntityFrameworkCore;
-using Northwind.Access.Models;
 using System.Text.Json.Serialization;
 
 namespace M005_EFCore
@@ -31,9 +30,6 @@ namespace M005_EFCore
             {
                 option.UseSqlServer(connectionString);
             });
-
-            var northwindConnectionString = builder.Configuration.GetConnectionString("NorthwindConnection");
-            builder.Services.AddSqlServer<NorthwindDbContext>(northwindConnectionString);
 
             builder.Services.AddTransient<IVehicleService, VehicleService>();
 

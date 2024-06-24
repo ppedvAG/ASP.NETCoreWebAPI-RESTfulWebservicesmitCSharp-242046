@@ -23,7 +23,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\BusinessLogic\BusinessLogic.csproj" />
-    <ProjectReference Include="..\Northwind.Access\Northwind.Access.csproj" />
   </ItemGroup>
 
 </Project>

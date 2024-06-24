@@ -36,6 +36,11 @@ dotnet ef migrations add myInitialScript --project myProject
 dotnet ef database update --project myProject
 ```
 
-- Db First: Northind Datenbank
+- Db First: Northwind Datenbank
 - EF Core Power Tools "Reverse Engineering"
 - Controller erzeugen
+- LAB: Daten von Northwind abfragen
+	* Alle Bestellungen
+	* Alle Bestellungen innerhalb eines Zeitraumes (Parameter: StartDate, EndDate)
+	* Bestellungen pro Kunde (Parameter: CustomerID)
+	* Kunden pro Land (Parameter: Country)
