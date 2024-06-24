@@ -3,17 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M001_WeatherForecastApi", "M001_WeatherForecastApi\M001_WeatherForecastApi.csproj", "{BCA94478-FEE8-4E28-A442-9E9A1043F020}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "M001_WeatherForecastApi", "M001_WeatherForecastApi\M001_WeatherForecastApi.csproj", "{BCA94478-FEE8-4E28-A442-9E9A1043F020}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M002_MinimalApi", "M002_MinimalApi\M002_MinimalApi.csproj", "{EFFC4093-BA8E-460C-8398-0539D1433AC0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "M002_MinimalApi", "M002_MinimalApi\M002_MinimalApi.csproj", "{EFFC4093-BA8E-460C-8398-0539D1433AC0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M003_VehicleFleetApi", "M003_VehicleFleetApi\M003_VehicleFleetApi.csproj", "{B74BCE13-1768-443B-B473-A2C668CC2A58}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "M003_VehicleFleetApi", "M003_VehicleFleetApi\M003_VehicleFleetApi.csproj", "{B74BCE13-1768-443B-B473-A2C668CC2A58}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLogic", "BusinessLogic\BusinessLogic.csproj", "{92D58486-1BEF-4A68-88E2-79352E16203A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusinessLogic", "BusinessLogic\BusinessLogic.csproj", "{92D58486-1BEF-4A68-88E2-79352E16203A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M004_MovieDbApi", "M004_MovieDbApi\M004_MovieDbApi.csproj", "{12E20E67-3135-457E-85F0-6422E0D79EE1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "M004_MovieDbApi", "M004_MovieDbApi\M004_MovieDbApi.csproj", "{12E20E67-3135-457E-85F0-6422E0D79EE1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M005_EFCore", "M005_EFCore\M005_EFCore.csproj", "{8A6C9F51-E05C-4CC2-94F6-126826F44E46}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "M005_EFCore", "M005_EFCore\M005_EFCore.csproj", "{8A6C9F51-E05C-4CC2-94F6-126826F44E46}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Northwind.Access", "Northwind.Access\Northwind.Access.csproj", "{158FF18F-B7C1-4574-8600-3726064CCD38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M005_EFCore.Northwind", "M005_EFCore.Northwind\M005_EFCore.Northwind.csproj", "{230019D2-0879-491E-B46F-CF474E508921}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +49,14 @@ Global
 		{8A6C9F51-E05C-4CC2-94F6-126826F44E46}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A6C9F51-E05C-4CC2-94F6-126826F44E46}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A6C9F51-E05C-4CC2-94F6-126826F44E46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{158FF18F-B7C1-4574-8600-3726064CCD38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{158FF18F-B7C1-4574-8600-3726064CCD38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{158FF18F-B7C1-4574-8600-3726064CCD38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{158FF18F-B7C1-4574-8600-3726064CCD38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{230019D2-0879-491E-B46F-CF474E508921}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{230019D2-0879-491E-B46F-CF474E508921}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{230019D2-0879-491E-B46F-CF474E508921}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{230019D2-0879-491E-B46F-CF474E508921}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

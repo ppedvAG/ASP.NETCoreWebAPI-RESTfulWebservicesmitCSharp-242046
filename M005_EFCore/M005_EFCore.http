@@ -4,3 +4,8 @@ POST {{M005_EFCore_HostAddress}}/api/vehicles/generate?count=5
 Accept: application/json
 
 ###
+
+GET {{M005_EFCore_HostAddress}}/api/vehicles/all
+Accept: application/json
+
+###

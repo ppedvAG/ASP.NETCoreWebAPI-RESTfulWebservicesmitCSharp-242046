@@ -16,6 +16,8 @@ namespace BusinessLogic
 
         public DbSet<Vehicle> Vehicles { get; set; }
 
+        public DbSet<Movie> Movies { get; set; }
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             base.OnConfiguring(optionsBuilder);

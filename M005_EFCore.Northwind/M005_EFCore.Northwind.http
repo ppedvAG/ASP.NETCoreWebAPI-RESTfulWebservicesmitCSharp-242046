@@ -1,0 +1,6 @@
+@M005_EFCore.Northwind_HostAddress = http://localhost:5266
+
+GET {{M005_EFCore.Northwind_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

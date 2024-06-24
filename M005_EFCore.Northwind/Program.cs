@@ -1,12 +1,7 @@
 
-using BusinessLogic;
-using BusinessLogic.Contracts;
-using BusinessLogic.Services;
-using Microsoft.EntityFrameworkCore;
 using Northwind.Access.Models;
-using System.Text.Json.Serialization;
 
-namespace M005_EFCore
+namespace M005_EFCore.Northwind
 {
     public class Program
     {
@@ -16,26 +11,13 @@ namespace M005_EFCore
 
             // Add services to the container.
 
-            builder.Services.AddControllers().AddJsonOptions(options =>
-            {
-                // Enums in Datenmodellen als Text statt Integers ausgeben indem wir diese Json Options verwenden
-                options.JsonSerializerOptions.Converters.Add(new JsonStringEnumConverter());
-            }); ;
-
+            builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
             var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
-            builder.Services.AddDbContext<WebApiDbContext>(option =>
-            {
-                option.UseSqlServer(connectionString);
-            });
-
-            var northwindConnectionString = builder.Configuration.GetConnectionString("NorthwindConnection");
-            builder.Services.AddSqlServer<NorthwindDbContext>(northwindConnectionString);
-
-            builder.Services.AddTransient<IVehicleService, VehicleService>();
+            builder.Services.AddSqlServer<NorthwindDbContext>(connectionString);
 
             var app = builder.Build();
 

@@ -14,12 +14,12 @@ KursRepository zu Kurs ASP.NET Core Web API - RESTful Webservices mit C# der ppe
 - In Program.cs mittels DI registriert
 - GET Methode für den Controller geschrieben um Liste von zufälligen Fahrzeugen zu erhalten
 
-
 ## Modul 004 Routing
 
 - Movie Database Api
 - Controller mit CRUD Operationen
 - Model constraints
+- LAB: Movie DB erstellen
 
 ## Modul 005 EF Core
 
@@ -28,6 +28,7 @@ KursRepository zu Kurs ASP.NET Core Web API - RESTful Webservices mit C# der ppe
 - DbContext erzeugt
 - Connection string erstellt
 - Abhängigkeiten via DI registriert
+- LAB: DB für Movie DB erstellen
 
 ```
 dotnet tool install --global dotnet-ef
@@ -35,3 +36,6 @@ dotnet ef migrations add myInitialScript --project myProject
 dotnet ef database update --project myProject
 ```
 
+- Db First: Northind Datenbank
+- EF Core Power Tools "Reverse Engineering"
+- Controller erzeugen
