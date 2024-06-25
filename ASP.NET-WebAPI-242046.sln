@@ -17,7 +17,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "M005_EFCore", "M005_EFCore\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Northwind.Access", "Northwind.Access\Northwind.Access.csproj", "{158FF18F-B7C1-4574-8600-3726064CCD38}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M005_EFCore.Northwind", "M005_EFCore.Northwind\M005_EFCore.Northwind.csproj", "{230019D2-0879-491E-B46F-CF474E508921}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "M005_EFCore.Northwind", "M005_EFCore.Northwind\M005_EFCore.Northwind.csproj", "{230019D2-0879-491E-B46F-CF474E508921}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M006_MediaTypes", "M006_MediaTypes\M006_MediaTypes.csproj", "{36FFF620-C790-4C55-AEDC-9100AAB53D2B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{230019D2-0879-491E-B46F-CF474E508921}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{230019D2-0879-491E-B46F-CF474E508921}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{230019D2-0879-491E-B46F-CF474E508921}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36FFF620-C790-4C55-AEDC-9100AAB53D2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36FFF620-C790-4C55-AEDC-9100AAB53D2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36FFF620-C790-4C55-AEDC-9100AAB53D2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36FFF620-C790-4C55-AEDC-9100AAB53D2B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -44,3 +44,7 @@ dotnet ef database update --project myProject
 	* Alle Bestellungen innerhalb eines Zeitraumes (Parameter: StartDate, EndDate)
 	* Bestellungen pro Kunde (Parameter: CustomerID)
 	* Kunden pro Land (Parameter: Country)
+
+## Modul 006 Media Types
+
+- ActionResults als XML zurück geben
