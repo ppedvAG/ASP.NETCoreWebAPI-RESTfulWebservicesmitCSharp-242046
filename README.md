@@ -47,7 +47,12 @@ dotnet ef database update --project myProject
 
 ## Modul 006 Media Types
 
-- ActionResults als XML zurück geben
+- ActionResults als XML zurück geben 
+
+## Modul 007 HttpClient
+
+- Console App welche Anfragen auf die Northwind API macht
+- Response als JSON deserialisieren
 
 ## Modul 008 Authentication
 

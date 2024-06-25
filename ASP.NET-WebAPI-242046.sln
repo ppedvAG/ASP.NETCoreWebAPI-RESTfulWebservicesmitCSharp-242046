@@ -23,7 +23,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "M006_MediaTypes", "M006_Med
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "M008_Authentication", "M008_Authentication\M008_Authentication.csproj", "{D0D02655-2A7F-4CED-A042-DFB5829EE0D8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M008_MSIdentity", "M008_MSIdentity\M008_MSIdentity.csproj", "{12DBA1A5-CE2A-4156-A494-9F44F5F28B3C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "M008_MSIdentity", "M008_MSIdentity\M008_MSIdentity.csproj", "{12DBA1A5-CE2A-4156-A494-9F44F5F28B3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M007_HttpClient.Console", "M007_HttpClient.Console\M007_HttpClient.Console.csproj", "{6CA12DE4-03BE-42D4-B01B-611F432B9FC1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{12DBA1A5-CE2A-4156-A494-9F44F5F28B3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{12DBA1A5-CE2A-4156-A494-9F44F5F28B3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{12DBA1A5-CE2A-4156-A494-9F44F5F28B3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CA12DE4-03BE-42D4-B01B-611F432B9FC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CA12DE4-03BE-42D4-B01B-611F432B9FC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CA12DE4-03BE-42D4-B01B-611F432B9FC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CA12DE4-03BE-42D4-B01B-611F432B9FC1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
