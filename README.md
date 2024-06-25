@@ -48,3 +48,9 @@ dotnet ef database update --project myProject
 ## Modul 006 Media Types
 
 - ActionResults als XML zurück geben
+
+## Modul 008 Authentication
+
+- Middleware für Authentication konfigurieren
+- IdentityDbContext verwenden
+- JwtToken erstellen

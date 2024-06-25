@@ -47,7 +47,7 @@ namespace M004_MovieDbApi.Controllers
         }
 
         // DELETE api/<MovieController>/5
-        [HttpDelete("{id}")]
+        [HttpDelete]
         [Route("delete/{id:int:min(1000)}")]
         public void DeleteMovie(int id)
             => _service.DeleteMovie(id);
