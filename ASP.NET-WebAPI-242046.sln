@@ -27,6 +27,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "M008_MSIdentity", "M008_MSI
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M007_HttpClient.Console", "M007_HttpClient.Console\M007_HttpClient.Console.csproj", "{6CA12DE4-03BE-42D4-B01B-611F432B9FC1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M009_OData", "M009_OData\M009_OData.csproj", "{345E40AF-93D0-4B47-AA49-DD4A49BAAF8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M010_UnitTests", "M010_UnitTests\M010_UnitTests.csproj", "{E934514C-418B-457E-B34F-FD7A845FDF3D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +85,14 @@ Global
 		{6CA12DE4-03BE-42D4-B01B-611F432B9FC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6CA12DE4-03BE-42D4-B01B-611F432B9FC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6CA12DE4-03BE-42D4-B01B-611F432B9FC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{345E40AF-93D0-4B47-AA49-DD4A49BAAF8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{345E40AF-93D0-4B47-AA49-DD4A49BAAF8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{345E40AF-93D0-4B47-AA49-DD4A49BAAF8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{345E40AF-93D0-4B47-AA49-DD4A49BAAF8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E934514C-418B-457E-B34F-FD7A845FDF3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E934514C-418B-457E-B34F-FD7A845FDF3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E934514C-418B-457E-B34F-FD7A845FDF3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E934514C-418B-457E-B34F-FD7A845FDF3D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
