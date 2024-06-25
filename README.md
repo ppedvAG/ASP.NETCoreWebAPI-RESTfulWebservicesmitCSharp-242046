@@ -54,3 +54,4 @@ dotnet ef database update --project myProject
 - Middleware für Authentication konfigurieren
 - IdentityDbContext verwenden
 - JwtToken erstellen
+- Authentication mit Microsoft Identity Platform via Azure AD
