@@ -4,7 +4,7 @@ using BusinessLogic.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
-namespace M003_VehicleFleetApi.Controllers
+namespace M005_EFCore.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]

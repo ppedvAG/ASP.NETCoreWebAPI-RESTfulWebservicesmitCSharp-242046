@@ -18,7 +18,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\BusinessLogic\BusinessLogic.csproj" />
+    <ProjectReference Include="..\M003_VehicleFleetApi\M003_VehicleFleetApi.csproj" />
+    <ProjectReference Include="..\M005_EFCore\M005_EFCore.csproj" />
   </ItemGroup>
 
   <ItemGroup>

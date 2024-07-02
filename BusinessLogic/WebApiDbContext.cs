@@ -20,8 +20,7 @@ namespace BusinessLogic
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            base.OnConfiguring(optionsBuilder);
-            optionsBuilder.UseSqlServer("Data Source=(localdb)\\ASPNetWebApiKurs;Initial Catalog=Demo;Integrated Security=True");
+            //optionsBuilder.UseSqlServer("Data Source=(localdb)\\ASPNetWebApiKurs;Initial Catalog=Demo;Integrated Security=True");
         }
     }
 }
