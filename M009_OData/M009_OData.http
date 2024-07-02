@@ -1,6 +1,31 @@
-@M009_OData_HostAddress = http://localhost:5141
+@M009_OData_HostAddress = http://localhost:5171
 
-GET {{M009_OData_HostAddress}}/weatherforecast/
+// Zweite Seite der Customers mit Seitengröße 10
+GET {{M009_OData_HostAddress}}/odata/customers?$skip=10&$top=10
+Accept: application/json
+
+###
+
+// Alle Kunden aus Kanada
+GET {{M009_OData_HostAddress}}/odata/customers?$filter=country+eq+'Canada'
+Accept: application/json
+
+###
+
+// 5 Angestellte welche die kürzeste Zeit im Unternehmen sind
+GET {{M009_OData_HostAddress}}/odata/employees?$orderby=HireDate+desc&$top=5
+Accept: application/json
+
+###
+
+// Selektieren bestimmter Felder und Expandieren von Beziehungen
+GET {{M009_OData_HostAddress}}/odata/orders?$select=OrderID,+OrderDate&$expand=Customer&$top=5
+Accept: application/json
+
+###
+
+// Orders der ersten 10 Tage im Mai 1997
+GET {{M009_OData_HostAddress}}/odata/orders?$filter=OrderDate+ge+1997-05-01T00:00:00Z+and+OrderDate+lt+1997-05-11T00:00:00Z
 Accept: application/json
 
 ###

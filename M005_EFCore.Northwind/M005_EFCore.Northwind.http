@@ -1,25 +1,25 @@
-@M005_EFCore.Northwind_HostAddress = http://localhost:5266
+@M005_EFCore_HostAddress = http://localhost:5266
 
-GET {{M005_EFCore.Northwind_HostAddress}}/api/customers/
+GET {{M005_EFCore_HostAddress}}/api/customers/
 Accept: application/json
 
 ###
 
-GET {{M005_EFCore.Northwind_HostAddress}}/api/customers?country=Canada
+GET {{M005_EFCore_HostAddress}}/api/customers?country=Canada
 Accept: application/json
 
 ###
 
-GET {{M005_EFCore.Northwind_HostAddress}}/api/orders/
+GET {{M005_EFCore_HostAddress}}/api/orders/
 Accept: application/json
 
 ###
 
-GET {{M005_EFCore.Northwind_HostAddress}}/api/orders/?customerid=ANTON
+GET {{M005_EFCore_HostAddress}}/api/orders/?customerid=ANTON
 Accept: application/json
 
 ###
-GET {{M005_EFCore.Northwind_HostAddress}}/api/orders/?startdate=1997-05-01&enddate=1997-05-11
+GET {{M005_EFCore_HostAddress}}/api/orders/?startdate=1997-05-01&enddate=1997-05-11
 Accept: application/json
 
 ###
